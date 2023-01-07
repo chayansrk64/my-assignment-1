@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  max-width: 1600px;
+  font-family: "Work Sans", sans-serif;
+}
+.btn-primary {
+  height: 60px;
+  width: 160px;
+  border-radius: 5px;
+  font-size: 21px;
+  font-weight: 600;
+}
+/* ---------header section start -------- */
+header {
+  height: 808px;
+  background-image: url("./images/banner/banner3.png");
+  background-size: cover;
+}
+.header-banner {
+  padding: 216px 230px 360px 845px;
+}
+.header-banner h1 {
+  color: #ffffff;
+  font-size: 70px;
+  text-align: right;
+}
+.header-banner p {
+  line-height: 26px;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: right;
+  margin: 24px 0 32px 0;
+}
+.button {
+  text-align: right;
+}
+.button .btn-primary {
+  color: rgb(97, 97, 223);
+}
+/* ---------header section end -------- */
+/* -----------about section start ------- */
+.section {
+  margin: 130px 230px;
+}
+.about {
+  display: flex;
+  gap: 90px;
+  align-items: center;
+}
+.about-left img {
+  height: 723px;
+  width: 570px;
+}
+.about-right h2 {
+  font-size: 48px;
+  line-height: 48px;
+  color: #151414;
+}
+.about-right p {
+  line-height: 26px;
+  font-size: 18px;
+  color: #444343;
+  margin-bottom: 8px;
+}
+.about-right .about-info {
+  margin: 24px 0 16px 0;
+}
+.about-right .fa-check {
+  color: green;
+  font-size: 24px;
+}
+.box {
+  width: 550px;
+  height: 550px;
+  background: rgb(245 245 245);
+  border-radius: 50%;
+  position: relative;
+}
+.box img {
+  height: 700px;
+  width: 600px;
+  position: absolute;
+  top: -180px;
+}
+
+/* -----------about section end ------- */
+/* -----------plan section start ------- */
+.plan {
+  /* background: linear-gradient(rgba(219, 215, 150, 0.5),rgba(148, 140, 59, 0.4)); */
+  border-radius: 8px;
+}
+.plan .plan-heading {
+  text-align: center;
+  font-size: 45px;
+  color: #151414;
+}
+.plans {
+  display: flex;
+  justify-content: space-around;
+  margin: 60px 0;
+  padding-bottom: 60px;
+}
+.plan1 h2 {
+  margin: 15px 0;
+  color: #151414;
+  font-weight: 700;
+}
+.plan1 p {
+  color: #737272;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+/* -----------plan section end ------- */
+/* -------communication section start ---------- */
+.communication {
+  background-image: linear-gradient(
+      to left,
+      rgba(255, 0, 0, 0),
+      rgba(4, 67, 139, 0.979)
+    ),
+    url("./images/watch.png");
+  border-radius: 10px;
+  background-repeat: no-repeat;
+}
+.communication h2 {
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  width: 550px;
+}
+.communications {
+  padding: 64px;
+}
+
+/* -------communication section end ---------- */
+/* -------form section start ---------- */
+.get-in-touch {
+  background-color: rgb(214, 209, 209);
+}
+.get-in-touch h2 {
+  font-size: 45px;
+  text-align: center;
+  padding-top: 15px;
+}
+.form-container {
+  display: flex;
+  gap: 50px;
+  padding: 50px;
+}
+.form-left {
+  width: 50%;
+  margin-top: 50px;
+}
+.form-right {
+  position: relative;
+}
+.form-right img {
+  height: 700px;
+  width: 600px;
+  position: absolute;
+  top: -130px;
+  left: -20px;
+}
+.input {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+textarea {
+  border-radius: 5px;
+  margin: 30px 0;
+}
+
+input[type="submit"] {
+  padding: 20px 20px;
+  border-radius: 5px;
+}
+input[placeholder] {
+  font-size: 15px;
+  padding-left: 15px;
+}
+textarea[placeholder] {
+  font-size: 15px;
+  padding: 15px;
+}
+input[type="submit"] {
+  font-size: 18px;
+  font-weight: 600;
+  background: #ffffff;
+}
+/* -------form section end ---------- */
+/* --------footer section start-------- */
+footer {
+  background: black;
+  margin-bottom: -150px;
+}
+.footer {
+  display: flex;
+  gap: 20%;
+  color: white;
+  padding: 150px 0;
+}
+.footer-left {
+  width: 50%;
+}
+.footer-left h2 {
+  font-size: 45px;
+  margin-bottom: 40px;
+}
+.footer-info {
+  line-height: 25px;
+  padding: 25px 0;
+}
+.phone {
+  padding: 20px 0;
+}
+.icons {
+  padding-right: 25px;
+  padding-top: 35px;
+}
+.footer-right {
+  width: 30%;
+}
+.subscription h2 {
+  font-size: 30px;
+  margin-bottom: 45px;
+}
+.footer-submit {
+  color: red;
+  padding: 0 20px;
+}
+/* --------footer section end-------- */
