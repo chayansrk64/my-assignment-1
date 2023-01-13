@@ -1,12 +1,13 @@
 * {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   border: 0;
   outline: 0;
   text-decoration: none;
   box-sizing: border-box;
-  max-width: 1600px;
+  max-width: 1280px;
   font-family: "Work Sans", sans-serif;
+  
 }
 .btn-primary {
   height: 60px;
@@ -22,11 +23,12 @@ header {
   background-size: cover;
 }
 .header-banner {
-  padding: 216px 230px 360px 845px;
+  /* padding: 138px 230px 360px 845px; */
+  padding: 150px 150px 200px 700px;
 }
 .header-banner h1 {
   color: #ffffff;
-  font-size: 70px;
+  font-size: 4vw;
   text-align: right;
 }
 .header-banner p {
@@ -50,7 +52,7 @@ header {
 .about {
   display: flex;
   gap: 90px;
-  align-items: center;
+  align-items: center;  
 }
 .about-left img {
   height: 723px;
@@ -75,17 +77,23 @@ header {
   font-size: 24px;
 }
 .box {
-  width: 550px;
-  height: 550px;
+  /* width: 550px;
+  height: 550px; */
+  width: 350px;
+  height: 350px;
   background: rgb(245 245 245);
   border-radius: 50%;
   position: relative;
 }
 .box img {
-  height: 700px;
-  width: 600px;
+  /* height: 700px;
+  width: 600px; */
+  height: 400px;
+  width: 300px;
   position: absolute;
-  top: -180px;
+  /* top: -180px; */
+  top: -80px;
+  left: 40px;
 }
 
 /* -----------about section end ------- */
@@ -159,6 +167,7 @@ header {
 }
 .form-right {
   position: relative;
+  width: 100%;
 }
 .form-right img {
   height: 700px;
@@ -166,6 +175,7 @@ header {
   position: absolute;
   top: -130px;
   left: -20px;
+  width: 100%;
 }
 .input {
   width: 100%;
@@ -236,4 +246,16 @@ footer {
   color: red;
   padding: 0 20px;
 }
+
+
+/* ================ Hiding ============ */
+
+ 
+
+
+
 /* --------footer section end-------- */
+
+ 
+ 
+
